@@ -1,4 +1,4 @@
-ii/usr/bin/env bash
+#!/usr/bin/env bash
 #Display a sentence and added one when a SIGTERM is received
 trap "echo "I am invencible!!!"" SIGTERM
 while :
