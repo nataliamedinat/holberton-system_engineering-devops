@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Display a sentence and added one when a SIGTERM is received
-trap "echo "I am invencible!!!"" SIGTERM
+trap "echo 'I am invencible!!!'" SIGTERM
 while :
 do
   echo "To infinity and beyond"
