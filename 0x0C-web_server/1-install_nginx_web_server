@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Install nginx web server
+ssh -i ~/.ssh/holberton ubuntu@35.237.247.197 'sudo apt-get install -y nginx'
+ssh -i ~/.ssh/holberton ubuntu@35.237.247.197 'echo Holberton School | sudo tee /var/www/html/index.nginx-debian.html'
